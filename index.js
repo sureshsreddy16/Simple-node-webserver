@@ -6,3 +6,5 @@ http.createServer(function (req, res) {
   res.end(); //end the response
 }).listen(3000); //the server object listens on port 8080
 
+console.log ("Point your broswer to Port http://localhost:3000");
+
